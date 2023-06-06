@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "java",
             "name": "Current File",
@@ -15,7 +16,8 @@
             "name": "Calculadora",
             "request": "launch",
             "mainClass": "gui.Calculadora",
-            "projectName": "taller-9-java-monicasofiarestrepo_a071e32a"
+            "projectName": "taller-9-java-monicasofiarestrepo_a071e32a",
+            "vmArgs": "--module-path 'C:/Program Files/Java/javafx-sdk-20.0.1/lib' --add-modules javafx.controls"
         }
     ]
 }
